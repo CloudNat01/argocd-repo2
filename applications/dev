@@ -18,7 +18,7 @@ spec:
   source:
     repoURL: https://github.com/CloudNat01/argocd-repo2.git
     targetRevision: main
-    path: ./dev
+    path: applications
     helm:
       releaseName: dev
       valueFiles:
