@@ -18,10 +18,10 @@ spec:
   source:
     repoURL: https://github.com/CloudNat01/argocd-repo2.git
     targetRevision: main
-    path: applications
+    path: dev
     helm:
       releaseName: dev
-      
+
   destination: 
     server: https://kubernetes.default.svc
     namespace: dev
