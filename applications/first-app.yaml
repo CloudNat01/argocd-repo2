@@ -24,8 +24,8 @@ spec:
       valueFiles:
         - service.yaml
   destination: 
-    server: https://kubernetes.default.svc
-    namespace: myap
+    server: in-cluster
+    namespace: dev
   syncPolicy:
     automated:
       prune: true
