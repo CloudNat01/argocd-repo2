@@ -21,8 +21,7 @@ spec:
     path: applications
     helm:
       releaseName: dev
-      valueFiles:
-        - service.yaml
+      
   destination: 
     server: https://kubernetes.default.svc
     namespace: dev
